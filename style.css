@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.car-site{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(135, 138, 163);
+    margin-left: 700px;
+    margin-top: 200px;
+    position: relative;
+}
+.site-text{
+    font-size: 70px;
+    text-align: center;
+    color: #fff;
+}
+table{
+    border-collapse: collapse;
+    position: absolute;
+    top: 90px;
+    left: 10px;
+}
+th,
+td{
+    border: 1px solid black;
+    padding: 20px;
+}
+tr:nth-child(2n){
+    background-color: rgb(74, 139, 236);
+}
+tr:nth-child(2n + 1){
+    background-color: rgb(110, 129, 158);
+}
+.cars-types{
+    background-color: #fff !important;
+}
